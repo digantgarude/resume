@@ -1,0 +1,35 @@
+CSS
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Baskervville', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Gentium Basic', serif;
+
+
+
+Link:
+
+<link href="https://fonts.googleapis.com/css?family=Baskervville|Gentium+Basic|Great+Vibes|Lora|Montserrat|Nanum+Gothic|Orbitron|Parisienne|Quicksand|Tangerine|Ubuntu&display=swap" rel="stylesheet">
+
+
+import:
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Gentium+Basic|Great+Vibes|Lora|Montserrat|Nanum+Gothic|Orbitron|Parisienne|Quicksand|Tangerine|Ubuntu&display=swap');
+</style>
+
+Color Details:
+00c483 - Green
+191b1b - background Dark
+fff - heading white
+969696 - text Dark
+007bff - Blue
+f9a039 - Yellow
+343a40 - default text - dark
