@@ -1,2 +1,2 @@
-# resume
- My Resume
+# Resume Website
+[My Resume](https://digantgarude.github.io/resume/)
