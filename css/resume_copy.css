@@ -234,3 +234,23 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.bg-custom{
+  /* background: rgb(98,110,227);
+  background: linear-gradient(0deg, rgba(98,110,227,1) 0%, rgba(2,32,60,1) 98%); */
+
+  /* Sea Salt */
+  /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+
+  /* Blue */
+  /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+
+  /* Green */
+  /* background: linear-gradient(90deg, #9ebd13 0%, #008552 100%); */
+
+  background-image: url("../img/bg3.jpg");
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  /* opacity: 0.8; */
+
+}
