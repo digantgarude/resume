@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
@@ -15,7 +15,53 @@ fff - heading white
 f9a039 - Yellow
 343a40 - default text - dark
 297bd0 - sidebar-blue
+
+
+
+FONTS
+
+font-family: 'Dancing Script', cursive;
+
+font-family: 'Estonia', cursive;
+
+font-family: 'Lato', sans-serif;
+
+font-family: 'Nunito', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Source Sans Pro', sans-serif;
 */
+
+:root {
+  --main-name-font: "Dancing Script";
+  --email-font: "Nunito";
+  --lead-para-font: "Nunito";
+  --heading-3-font: "Nunito";
+
+
+  --main-theme-color: #3d5a80ff;
+  --btn-border-icon: #ee6c4dff;
+  --fa-icons-color: var(--main-theme-color);
+  --heading-2: #ee6c4dff;
+  --heading-3: #3d5a80ff;
+  --box-border: #3d5a80ff;
+  --mute-look: #98c1d9ff;
+  --light-cyan: #e0fbfcff;
+  --font-pop-out: #ee6c4dff;
+  --font-normal: #293241ff;
+}
+
+.first-name {
+
+  font-family: var(--main-name-font), sans-serif;
+}
+
+.last-name {
+
+  font-family: var(--main-name-font), sans-serif;
+  color: var(--main-theme-color);
+}
 
 .skills-btn-look{
   margin-bottom: 6px;
@@ -30,7 +76,7 @@ f9a039 - Yellow
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid #297bd0;
+  border: 1px solid var(--btn-border-icon);
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -42,8 +88,8 @@ f9a039 - Yellow
   margin-bottom: 6px;
   border-radius: 20px!important;
   color: #fff;
-  background-color: #297bd0;
-  border-color: #297bd0;
+  background-color: var(--btn-border-icon);
+  border-color: var(--btn-border-icon);
 
 }
 
@@ -80,8 +126,8 @@ h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-  text-transform: uppercase;
+  /* font-weight: 700; */
+  /* text-transform: uppercase; */
   color: #343a40;
 }
 
@@ -94,7 +140,7 @@ h2 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #297bd0;
+  color: var(--heading-2);
   font-size: 3.5rem;
 }
 
@@ -105,13 +151,21 @@ h3 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  font-family: var(--lead-para-font);
 }
 
 .subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* text-transform: uppercase; */
+  /* font-weight: 500; */
+  margin-top: 10px;
+  /* font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  font-family: var(--email-font);
   font-size: 1.5rem;
+}
+
+.sub-title-h3{
+  color: var(--heading-3);
+  font-family: var(--heading-3-font);
 }
 
 .social-icons a {
@@ -132,7 +186,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #297bd0;
+  background-color: var(--btn-border-icon);
 }
 
 .dev-icons {
@@ -140,7 +194,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #297bd0;
+  color: var(--btn-border-icon);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -253,4 +307,8 @@ a:hover, a:focus, a:active {
   -webkit-filter: blur(8px); */
   /* opacity: 0.8; */
 
+}
+
+.fa-icons-color {
+  color: var(--fa-icons-color)
 }

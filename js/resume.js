@@ -1,5 +1,4 @@
-(function($) {
-  "use strict"; // Start of use strict
+$(document).ready(function() { // Start of use strict
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -25,4 +24,24 @@
     target: '#sideNav'
   });
 
-})(jQuery); // End of use strict
+
+  var leading_typewriter_para = document.getElementById('leading-typewriter-para');
+
+  var typewriter = new Typewriter(leading_typewriter_para, {
+      loop: true
+  });
+
+  typewriter.typeString("I am a problem solver.")
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('I like working on <b>Software Development</b>')
+      .pauseFor(2500)
+      .deleteChars(20)
+      .typeString('<b>Machine Learning</b>')
+      .pauseFor(2500)
+      .deleteChars(16)
+      .typeString('<b>Blockchain Development</b>')
+      .start();
+
+
+}); // End of use strict

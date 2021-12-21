@@ -1,0 +1,51 @@
+:root {
+    --email-link-color: #ee6c4dff;
+    --box-border: #3d5a80ff;
+    --mute-look: #98c1d9ff;
+    --light-cyan: #e0fbfcff;
+    --font-pop-out: #ee6c4dff;
+    --font-normal: #293241ff;
+}
+
+#email_ref_box{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 5px;
+    z-index: 10;
+    color: var(--email-link-color);;
+}
+
+#email_ref{
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#email_ref:hover, #email_ref:focus{
+    transform: translateY(-3px);
+}
+
+#email_ref::before,#email_ref::after{
+    box-sizing: inherit;
+    content: "";
+    display: inline-flex;
+    width: 2px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--email-link-color);
+}
+
+#email_link{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+}

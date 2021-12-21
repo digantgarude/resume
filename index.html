@@ -15,11 +15,17 @@
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Lato&family=Nunito&family=Raleway:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
   <!-- Custom styles for this template -->
   <link href="css/resume_copy.css" rel="stylesheet">
+  <link href="css/buttons.css" rel="stylesheet">
+  <link href="css/other_custom.css" rel="stylesheet">
 
 </head>
 
@@ -70,14 +76,17 @@
     <!-- ABOUT ME -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Digant
-          <span class="text-primary">Garude</span>
+        <h3 class="first-name">Hello, I'm </h3>
+        <h1 class="mb-0 first-name">Digant
+          <span class="last-name">Garude</span>
         </h1>
-        <div class="subheading mb-5">
+        <br>
+        <p id="leading-typewriter-para"></p>
+        <br>
+        <div class="subheading mb-2">
           <p>digant.dg07 (at) gmail.com</p>
-          
         </div>
-        <p class="lead mb-5">Currently pursuing <b>Masters in Computer Science at University at Buffalo, NY</b></p>
+        <p class="lead mb-3">Currently pursuing <b>Masters in Computer Science at University at Buffalo, NY</b></p>
         <!-- <p class="lead mb-5">I am experienced in leveraging deep learning frameworks to provide a robust system . Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p> -->
 
         <div class="social-icons">
@@ -102,8 +111,105 @@
     <!-- EXPERIENCE -->
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5 heading-2">Experience</h2>
+        <!-- ADDED NEW START -->
+        <div class="row">
+        <div class="col-md-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="slide slide-btn active" id="v-pills-company-1-tab" data-toggle="pill" href="#v-pills-company-1" role="tab" aria-controls="v-pills-company-1" aria-selected="true">Rejolut Technologies Pvt. Ltd.</a>
+          <a class="slide slide-btn" id="v-pills-company-2-tab" data-toggle="pill" href="#v-pills-company-2" role="tab" aria-controls="v-pills-company-2" aria-selected="false">Concerto Software & Systems</a>
+          <a class="slide slide-btn" id="v-pills-company-3-tab" data-toggle="pill" href="#v-pills-company-3" role="tab" aria-controls="v-pills-company-3" aria-selected="false">Software Development Group - RAIT</a>
+        </div>
+        </div>
+        <div class="col-md-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-company-1" role="tabpanel" aria-labelledby="v-pills-company-1-tab">
+            <div class="resume-content">
+              <h3 class="mb-0 sub-title-h3">Software Developer</h3>
+              <div class="subheading mb-3">Rejolut Technologies Pvt. Ltd.</div>
+              <p>Worked on the following technologies: </p>
+              <ul class="list-inline">
+                <li class="list-inline-item skills-btn-look">Node</li>
+                <li class="list-inline-item skills-btn-look">Mongo DB</li>
+                <li class="list-inline-item skills-btn-look">Google Cloud EC2, Buckets</li>
+                <li class="list-inline-item skills-btn-look">Firebase Web Push</li>
+                <li class="list-inline-item skills-btn-look">Hedera Hashgraph</li>
+                <li class="list-inline-item skills-btn-look">Paypal</li>
+                <li class="list-inline-item skills-btn-look">Docker</li>
+                <li class="list-inline-item skills-btn-look">Nginx</li>
+                <li class="list-inline-item skills-btn-look">Solidity</li>
+                <li class="list-inline-item skills-btn-look">Smart Contract</li>
+                <li class="list-inline-item skills-btn-look">Brain tree payment integrations</li>
+                <li class="list-inline-item skills-btn-look">Passport.js</li>
+                <li class="list-inline-item skills-btn-look">Sendgrid</li>
+                <li class="list-inline-item skills-btn-look">Mirror Node Hedera</li>
+              </ul>
+              <p>Tools and services used: </p>
+              <ul class="list-inline">
+                <li class="list-inline-item skills-btn-look">Remix Etherium</li>
+                <li class="list-inline-item skills-btn-look">Postman</li>
+                <li class="list-inline-item skills-btn-look">Insomnia</li>
+                <li class="list-inline-item skills-btn-look">Robo 3t</li>
+                <li class="list-inline-item skills-btn-look">Mongo DB Compass</li>
+                <li class="list-inline-item skills-btn-look">Metamask</li>
+                <li class="list-inline-item skills-btn-look">MyHbarWallet</li>
+                <li class="list-inline-item skills-btn-look">Dragonglass</li>
+                <li class="list-inline-item skills-btn-look">Kabuto</li>
+                <li class="list-inline-item skills-btn-look">Gitlab</li>
+                <li class="list-inline-item skills-btn-look">Click Up</li>
+                <li class="list-inline-item skills-btn-look">Slack</li>
+                
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-dark">October 2020 - Present</span>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-company-2" role="tabpanel" aria-labelledby="v-pills-company-2-tab">
+            <div class="resume-content">
+              <h3 class="mb-0 sub-title-h3">Deep Learning Intern</h3>
+              <div class="subheading mb-3">Concerto Software & Systems</div>
+              <p>Worked on the following projects :</p>
+              <ul class="mb-0 project-li">
+                <li>AI based ATM camera survelliance to detect multiple people and other unexpected actions.</li>
+                <li>Voice based BHIM UPI app as part of Hackathon organized by National Payments Corporation Of India (NPCI) wherein our team ranked amongst the top 15 finalists all over India.</li>
+                <li>Automatic trash detection in ATM using survelliance cameras. (Currently Working)</li>
+              </ul>
+              <p><b>Technologies Used in above projects:</b> Python, Tensorflow, Keras, Open CV, Matplotlib, Yolo Darknet Algorithm, Android Studio. </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-dark">November 2019 - April 2020</span>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-company-3" role="tabpanel" aria-labelledby="v-pills-company-3-tab">
+            <div class="resume-content">
+              <h3 class="mb-0 sub-title-h3">Team Leader & Web Development Intern</h3>
+              <div class="subheading mb-3">Software Development Group - RAIT</div>
+              <p><b>Project:</b> RAIT College Website & Faculty Details Management System</p>
+              <p><b>Work:</b> Successfully guided a team of 10 and developed a full-fledged dynamic & responsive college website with faculty management system integrated in it.</p>
+              <p><b>Technologies Used:</b> PHP 7, SQL, JS, jQuery,  AJAX, Bootstrap V4, HTML5, CSS3.</p>
+            </div>
 
+            <div class="resume-date text-md-right">
+              <span class="text-dark">December 2017 - July 2018</span>
+            </div>
+            <div class="resume-content">
+              <h3 class="mb-0 sub-title-h3">Web Development Intern</h3>
+              <div class="subheading mb-3">Software Development Group - RAIT</div>
+              <p><b>Project:</b> Automatic Transcript Generation System</p>
+              <p><b>Work:</b> Implemented security on the existing  system and developed modules for the same.</p>
+              <p><b>Technologies Used:</b> PHP 5, SQL, JS, HTML5, CSS3.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-dark">July 2017 - December 2017</span>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!-- ADDED NEW END -->
+
+        <!--
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0 sub-title-h3">Software Developer</h3>
@@ -191,7 +297,7 @@
         </div>
 
       </div>
-
+      -->
     </section>
 
     <hr class="m-0">
@@ -199,7 +305,7 @@
     <!-- EDUCATION -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5 heading-2">Education</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -255,7 +361,7 @@
     <!-- SKILLS -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5 heading-2">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages</div>
         <ul class="list-inline">
@@ -335,7 +441,7 @@
     <!-- PROJECTS -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
+        <h2 class="mb-5 heading-2">Projects</h2>
 
         <!-- Outfit Recommendation -->
         <div class="resume-content">
@@ -378,7 +484,7 @@
     <!-- INTERESTS -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
+        <h2 class="mb-5 heading-2">Interests</h2>
         <p class="para">My interests lie in the domain of Artificial Intelligence, Internet of Things, Automation,etc.</p>
         <p class="mb-3 para">I spend a large amount of my free time exploring the latest technology advancements in the deep learning  world.</p>
         <p class="mb-3 para">My hobbies are reading, freelancing web-dev projects, watching tech reviews and playing video games all from the Age of Empires to Need for Speed.</p>
@@ -390,23 +496,23 @@
     <!-- COURSES -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="courses">
       <div class="w-100">
-        <h2 class="mb-5">Courses / Certifications</h2>
+        <h2 class="mb-5 heading-2">Courses / Certifications</h2>
 
         <div class="subheading mb-3">Courses</div>
         <ul class="fa-ul mb-0 courses-part">
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Deep Learning Specialization - By Coursera</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Baseline AI, ML, Data by Google Qwiklabs.
             </li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Microsoft Technology Associate in Security
             Fundamentals.</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Computer Hardware Essentials - from JetKing</li>
           
         </ul>
@@ -414,43 +520,43 @@
         <div class="subheading mb-3">Certificates</div>
         <ul class="fa-ul mb-0 certifications-part">
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Certificate of Excellence in Machine Learning
             with Python conducted by CSI RAIT. (2017)</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Qualified for Final Round of Placement Mantra
             in Techmate 2k15
           </li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Secured 2nd rank in Science Team Quiz in
             Junior College.</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Secured 1st and 2nd rank respectively for Best
             Presentation Making Competition in Junior
             College.</li>
           <!-- <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Secured 130<sup>th</sup> state rank and 1,524 international rank in 10
             <sup>th</sup> International Informatics Olympiad.</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Selected amongst top 50 students for ‘I will be
             the change’ contest organized by HINDUSTAN
             TIMES NEWSPAPER in the state.
           </li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Secured 1st rank in Roller skating competition
             at Karnala Sports Academy.</li>
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Participated in Udaan - a Short Marathon
             conducted by Social Wing.</li> -->
           <li>
-            <i class="fa-li fa fa-trophy text-primary"></i>
+            <i class="fa-li fa fa-trophy fa-icons-color"></i>
             Participated in workshops based on Machine
             Learning, Advanced Web Technologies, and
             Android App Development.</li>
@@ -463,7 +569,7 @@
     <!-- RESEARCH -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="research">
       <div class="w-100">
-        <h2 class="mb-5">Research</h2>
+        <h2 class="mb-5 heading-2">Research</h2>
         <p class="para">Published a paper on <b>Skin Tone And Occasion Oriented Outfit Recommendation System</b> in the <i>2nd International Conference on
         Advances in Science & Technology (ICAST) 2019</i>.</p>
         <p class="mb-3 para"><b>Link:</b> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3368058">Skin Tone And Occasion Oriented Outfit Recommendation System</a></p>
@@ -472,7 +578,11 @@
 
 
   </div>
-
+  <div id="email_ref_box">
+    <div id="email_ref">
+      <a id="email_link" href="mailto:dgarude@buffalo.edu">dgarude@buffalo.edu</a>
+    </div>
+  </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -481,7 +591,8 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+  <!-- <script src="js/resume.min.js"></script> -->
+  <script src="js/resume.js"></script>
 
 </body>
 
