@@ -41,14 +41,15 @@ font-family: 'Source Sans Pro', sans-serif;
 
 
   --main-theme-color: #3d5a80ff;
-  --btn-border-icon: #ee6c4dff;
+  --secondary-theme-color: #3d5a80ff;
+  --btn-border-icon: var(--secondary-theme-color);
   --fa-icons-color: var(--main-theme-color);
-  --heading-2: #ee6c4dff;
+  --heading-2: var(--secondary-theme-color);
   --heading-3: #3d5a80ff;
   --box-border: #3d5a80ff;
   --mute-look: #98c1d9ff;
   --light-cyan: #e0fbfcff;
-  --font-pop-out: #ee6c4dff;
+  --font-pop-out: var(--secondary-theme-color);
   --font-normal: #293241ff;
 }
 
