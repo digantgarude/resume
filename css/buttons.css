@@ -91,7 +91,7 @@
   /* --color: #ef6eae;
   --hover: #ef8f6e; */
   --color: #1973bc;
-  --hover: #5c95c4;
+  --hover: #293241ff;
 }
 
 .offset {
@@ -123,7 +123,7 @@ button {
   transition: 0.5s;
 }
 
-.slide-btn:hover, .slide-btn:focus {
+.slide-btn:active, .slide-btn:hover, .slide-btn:focus {
   border-color: var(--hover);
   color: #fff;
   text-decoration: none;
