@@ -9,7 +9,9 @@ var work = [{
         "Built a scalable integration for discovering, tracking and managing high-value Honeywell devices used in Walmart distribution centers worth <b>$3.4 million.</b> Collaborated & modified existing processes for Device Management Team to enable procurement of <b>100K new devices in 17days</b>, with a business value of <b>over $33.4 million.</b> ",
         "Built integration to migrate existing legal hold processes from Zapproved to Exterro saving millions in indirect costs.",
         "Built & released asset audit features with estimated <b>annual savings of $16K</b> in labour and potential risk mitigation of nearly <b>$600K</b> by reducing inventory discrepancies. ",
-        "Effectively guided and mentored 2 interns and 2 externs, providing them with the necessary tools, knowledge, resources and helping with coding and debugging tasks on ServiceNow, Java, Node and WCNP."
+        "Effectively guided and mentored 2 interns and 2 externs, providing them with the necessary tools, knowledge, resources and helping with coding and debugging tasks on ServiceNow, Java, Node and WCNP.",
+        "Received multiple recognitions for consistently delivering high-quality work, including Badgify awards such as 'Customer Champion', 'Fire Fighter', and 'Community Warrior'.",
+        "Finalist of Global Techathon 2024 - Hackathon organized by Walmart Global Tech, US. - for project on Data Center Hardware Decomissioning."
     ],
     "technologies": [
         "Node.js", "Java", "Python", "ServiceNow", "Walmart Cloud Native Platform (WCNP)", "Azure", "GCP", "Docker", "Shell Scripting", "Express.js", "Springboot"
@@ -24,7 +26,8 @@ var work = [{
     "work_done": [
         "Built prototype for Apollo GraphQL server for ServiceNow tables providing efficient access to data in DataLake at Walmart, saving cost & bandwidth.",
         "Expanded functionality of a high-value business catalog from the US to Canada, Mexico, China, and other regions, saving around <b>$170,000 annually</b> for Walmart and automating work of around 48 hours per request sent.",
-        "Published knowledge article on Walmart’s REST Message framework, making it easier to onboard incoming developers."
+        "Published knowledge article on Walmart’s REST Message framework, making it easier to onboard incoming developers.",
+        "Finalist of Innovation Jam - Hackathon organized by Sam’s Club, presenting in front of 5 C-suite level executives at Sams Club,US."
     ],
     "technologies": [
         "Node.js", "Apollo Graph QL", "Python", "ServiceNow", "Walmart Cloud Native Platform (WCNP)", "Docker", "Shell Scripting", "Express.js"
