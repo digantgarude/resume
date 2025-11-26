@@ -31,16 +31,19 @@ $(document).ready(function() { // Start of use strict
       loop: true
   });
 
-  typewriter.typeString("I am a problem solver.")
+  typewriter.typeString("I am a <b>problem solver.</b>")
       .pauseFor(2500)
       .deleteAll()
-      .typeString('I like working on <b>Software Development</b>')
+      .typeString('I like working on <b>Gen AI.</b>')
       .pauseFor(2500)
-      .deleteChars(20)
-      .typeString('<b>Machine Learning</b>')
+      .deleteChars(7)
+      .typeString('<b>Software Development.</b>')
       .pauseFor(2500)
-      .deleteChars(16)
-      .typeString('<b>Blockchain Development</b>')
+      .deleteChars(21)
+      .typeString('<b>Blockchain Development.</b>')
+      .pauseFor(2500)
+      .deleteChars(23)
+      .typeString('<b>the latest tech !</b>')
       .start();
 
 
