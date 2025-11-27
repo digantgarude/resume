@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create tab
         const tabId = `v-pills-company-${index + 1}`;
         const tab = document.createElement('a');
-        tab.className = `slide slide-btn ${index === 0 ? 'active' : ''}`;
+        const isActive = index === 0;
+        tab.className = `slide slide-btn ${isActive ? 'active' : ''}`;
         tab.id = `${tabId}-tab`;
         tab.setAttribute('data-toggle', 'pill');
         tab.href = `#${tabId}`;
