@@ -33,6 +33,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 <ul class="mb-0 project-li">
                     ${job.work_done.map(work => `<li>${work}</li>`).join('')}
                 </ul>
+                ${job.other_activities && job.other_activities.length > 0 ? `
+                    <p class="mt-3 mb-1"><b>Other Activities:</b></p>
+                    <ul class="mb-0 project-li">
+                        ${job.other_activities.map(activity => `<li>${activity}</li>`).join('')}
+                    </ul>
+                ` : ''}
                 ${job.technologies.length > 0 ? `
                     <p class="mt-3">Technologies / Frameworks worked on:</p>
                     <ul class="list-inline">

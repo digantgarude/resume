@@ -25,25 +25,27 @@ var skills = [{
         "Flask",
         "FAST API",
         "Strapi",
-        "jQuery",
-        "AJAX",
-        "Bootstrap",
         "Passport.js",
         "Sendgrid",
+        "GCP ADK",
         "Tensorflow",
         "Keras",
+        "jQuery",
+        "AJAX",
+        "Bootstrap"
     ]
 }, {
     "category": "Databases",
     "items": [
         "PostgreSQL",
+        "Azure SQL",
         "Firebase",
         "GraphQL",
-        "Elastic Search",
+        "Milvus",
+        "Elastic Search DB",
+        "BigQuery",
         "Apache Solr",
         "Mongo DB",
-        "MySQL",
-        "Oracle DB",
     ]
 }, {
     "category": "Cloud",
@@ -58,10 +60,10 @@ var skills = [{
 }, {
     "category": "Other Technologies / Tools",
     "items": [
-        "ServiceNow",
         "Docker",
         "Kubernetes",
         "Apache Kafka",
+        "Grafana",
         "Torbit",
         "Nginx",
         "Hedera Hashgraph",
@@ -70,6 +72,7 @@ var skills = [{
         "Paypal - Brain tree payment gateway",
         "Git",
         "Confluence",
-        "Swagger"
+        "Swagger",
+        "ServiceNow"
     ]
 }];
